@@ -1,0 +1,24 @@
+@media (max-width:750px) {
+  .menu{
+    display: none;
+  }
+  .sp-menu{
+    display: block;
+  }
+  .container{
+    margin-left: 0;
+  }
+  .news-topics{
+    flex-wrap: wrap;
+  }
+  .news-topics time{
+    border-right: none;
+  }
+  .news-topics p:nth-child(3){
+    border-top: solid 3px #E5E5E5;
+  }
+  time>span {
+    display: inline-block;
+  }
+
+}
